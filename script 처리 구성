@@ -1,0 +1,15 @@
+class CommandDispatcher : CommandExecutor {
+    ...
+    override fun onCommand(...) {
+        val commandName = args[0]
+
+        if ("first".equals(commandName, true)) {
+            // first 명령 처리
+        } else if ("second".equals(commandName, true)) {
+            // second 명령 처리
+        } else {
+            // Error
+        }
+        //when 문으로도 구현 가능
+    }
+}
