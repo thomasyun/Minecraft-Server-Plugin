@@ -1,0 +1,9 @@
+name: Heart0dot01
+version: '1.0-SNAPSHOT'
+main: org.lastdice.heart0dot01.Heart0dot01
+api-version: 1.17
+authors: [ LastDice ]
+
+commands:
+  heart1:
+    description: Heart 0.01!
